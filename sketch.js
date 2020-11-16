@@ -45,11 +45,11 @@ function setup() {
  	World.add(world, ground);
 
 
-	Engine.run(engine);
+	
 	box1=new Box(500, 600, 15, 100);
 box2=new Box(300, 600, 15, 100);
 box3=new Box(400, 360, 200, 15);
-  
+  Engine.run(engine);
 }
 
 
